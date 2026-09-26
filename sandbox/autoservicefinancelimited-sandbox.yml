@@ -1,0 +1,20 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://api-docs.bumper.co/bumper-api-documentation/test-environment.md
+sources:
+- https://api-docs.bumper.co/bumper-api-documentation/test-environment.md
+description: Sandbox / test environment details for Autoservicefinancelimited
+modes:
+- name: Production
+  base_url: https://api.bumper.co
+- name: Demo
+  base_url: https://api.demo.bumper.co
+  how_to_get_access: Access is provided by request, please contact integrations@bumper.co
+test_values:
+- kind: card
+  value: 5555 4444 3333 1111
+- kind: card
+  value: 4970 1071 1111 1119
+docs:
+- https://api-docs.bumper.co/bumper-api-documentation/test-environment.md

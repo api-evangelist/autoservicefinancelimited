@@ -1,0 +1,17 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://api-docs.bumper.co/bumper-api-documentation/authentication.md
+sources:
+- https://api-docs.bumper.co/bumper-api-documentation/authentication.md
+- https://api-docs.bumper.co/bumper-api-documentation/reference/payment-solutions/payplus-subscriptions/setup-subscription.md
+- https://api-docs.bumper.co/bumper-api-documentation/reference/payment-solutions/payplus-subscriptions/setup-subscription/example-request.md
+description: Authentication requires generating a hashed message authentication code (HMAC-SHA256).
+schemes:
+- type: hmac
+  name: HMAC-SHA256
+  evidence: Authentication requires generating a hashed message authentication code (HMAC-SHA256).
+  location: body
+  how_to_obtain: A secret is provided by BUMPER and used to compute the signature hash; the api_key is supplier‑specific and provided by BUMPER.
+note: The signature and api_key are included in the request body as shown in the example payloads.
+docs: https://api-docs.bumper.co/bumper-api-documentation/authentication.md

@@ -1,0 +1,20 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://api-docs.bumper.co/bumper-api-documentation/webhooks.md
+sources:
+- https://api-docs.bumper.co/bumper-api-documentation/webhooks.md
+- https://api-docs.bumper.co/bumper-api-documentation/webhooks/applied-event.md
+- https://api-docs.bumper.co/bumper-api-documentation/webhooks/applied-event-additional-data.md
+- https://api-docs.bumper.co/bumper-api-documentation/webhooks/signed-event.md
+description: Bumper provides webhook events for the payment lifecycle.
+events:
+- event: APPLIED
+  description: Triggered when a customer submits a PayLater application, indicating a credit check has been attempted.
+- event: SIGNED
+  description: Sent when the customer has successfully added their card details and been accepted, marking the payment as complete.
+- event: SETTLED
+  description: Sent once the payment has been processed and Bumper has paid funds into the client’s account.
+delivery:
+  signature: X-Signature header containing an HMAC‑SHA256 signature of the sorted event body parameters.
+docs: https://api-docs.bumper.co/bumper-api-documentation/webhooks.md

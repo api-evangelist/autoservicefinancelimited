@@ -1,0 +1,60 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://api-docs.bumper.co/bumper-api-documentation/changelog.md
+sources:
+- https://api-docs.bumper.co/bumper-api-documentation/changelog.md
+- https://api-docs.bumper.co/bumper-api-documentation/group-1/v1-greater-than-v2-migration.md
+entries:
+- breaking: false
+  highlights:
+  - Remove incorrect wording on webhook screen that relates to ignoring min and max amounts.  These fields are required for signature creation.
+  date: '2025-07-21'
+- breaking: false
+  highlights:
+  - Updated example payload, replaced product_id with instalments key.
+  date: '2025-02-17'
+- breaking: false
+  highlights:
+  - Updated x-signature to X-Signature to match the correct header sent.
+  date: '2024-12-18'
+- breaking: false
+  highlights:
+  - Updated status information to show possible status responses.
+  date: '2024-12-09'
+- breaking: false
+  highlights:
+  - Updated the description for the status endpoint siganture.
+  date: '2024-12-05'
+- breaking: false
+  highlights:
+  - Updated payload examples to remove pre-approval fields, these fields are no longer required.
+  date: '2024-10-15'
+- breaking: false
+  highlights:
+  - Updated correct statuses for payment_status in webhook response
+  - Updated correct statuses for payment_status in webhook response
+  date: '2023-07-26'
+- breaking: false
+  highlights:
+  - Added invoice_number and user_email to the apply payload, this will allow suppliers to send invoice number and users email address with initial
+    request.
+  date: '2023-07-24'
+- breaking: false
+  highlights:
+  - Added Tracking and Impressions section
+  date: '2023-07-20'
+- breaking: false
+  highlights:
+  - Updated incorrect endpoint for cancellation request
+  date: '2023-07-14'
+- breaking: false
+  highlights:
+  - Added additional information on how signature is generated on success and failure URLredirection
+  date: '2023-06-01'
+- breaking: false
+  highlights:
+  - Additional data regarding migration included
+  date: '2023-06-10'
+note: The changelog page lists entries by date without explicit version numbers, so versioning scheme and current version are not provided.
+docs: https://api-docs.bumper.co/bumper-api-documentation/changelog.md

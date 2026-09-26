@@ -1,23 +1,94 @@
 aid: autoservicefinancelimited
+
 name: Autoservicefinancelimited
-description: 'Autoservicefinancelimited is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Autoservicefinancelimited, now operating as Bumper International Limited, provides a digital payment platform for car repair financing in the UK. Customers can spread the cost of repairs, parts, and services over interest‑free monthly installments, with no hidden fees. The service is regulated by the Financial Conduct Authority and serves over 5,000 dealers, offering quick credit decisions and a seamless online experience for both drivers and businesses.'
+
 url: https://raw.githubusercontent.com/api-evangelist/autoservicefinancelimited/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
-- Company
-apis: []
+- Finance
+- Automotive
+- FinTech
+- UK
+- Payments
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Vendors
+  url: vendors/autoservicefinancelimited-vendors.yml
+- type: Webhooks
+  url: asyncapi/autoservicefinancelimited-webhooks.yml
+- type: ChangeLog
+  url: changelog/autoservicefinancelimited-changelog.yml
+- type: Sandbox
+  url: sandbox/autoservicefinancelimited-sandbox.yml
+- type: Authentication
+  url: authentication/autoservicefinancelimited-authentication.yml
+- type: LLMsTxt
+  url: llms/autoservicefinancelimited-llms.txt
+- type: SecurityTxt
+  url: well-known/autoservicefinancelimited-status-security.txt
+- type: WellKnown
+  url: well-known/autoservicefinancelimited-well-known.yml
+- type: Hosts
+  url: hosts/autoservicefinancelimited-hosts.yml
+- type: Webhooks
+  url: https://api-docs.bumper.co/bumper-api-documentation/webhooks
+- type: TermsOfService
+  url: https://www.bumper.co/terms
+- type: StatusPage
+  url: https://status.bumper.co/
+- type: PrivacyPolicy
+  url: https://www.bumper.co/privacy
+- type: Pricing
+  url: https://www.bumper.co/blog/price-guide-repairing-dents-car-doors
+- type: ChangeLog
+  url: https://api-docs.bumper.co/bumper-api-documentation/changelog
+- type: Blog
+  url: https://www.bumper.co/blog
+- type: APIReference
+  url: https://api-docs.bumper.co/bumper-api-documentation/reference
+- type: GettingStarted
+  url: https://api-docs.bumper.co/bumper-api-documentation/reference/payment-solutions/payplus-subscriptions/setup-subscription
+- type: Documentation
+  url: https://api-docs.bumper.co/
+- type: DomainSecurity
+  url: security/autoservicefinancelimited-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/autoservicefinancelimited
+  url: https://www.bumper.co
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation is served via Gitbook with HTML pages and no machine‑readable OpenAPI spec.
+  evidence:
+    - url: https://api-docs.bumper.co/openapi.json
+      status: 307
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
