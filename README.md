@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Autoservicefinancelimited is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/autoservicefinancelimited
+Autoservicefinancelimited, now operating as Bumper International Limited, provides a digital payment platform for car repair financing in the UK. Customers can spread the cost of repairs, parts, and services over interest‑free monthly installments, with no hidden fees. The service is regulated by the Financial Conduct Authority and serves over 5,000 dealers, offering quick credit decisions and a seamless online experience for both drivers and businesses.
+
+**Areas:** Finance · Automotive · Fintech · United Kingdom · Payments
+
+## Autoservicefinancelimited on APIs.io
+
+Everything profiled for Autoservicefinancelimited is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autoservicefinancelimited/](https://apis.io/providers/autoservicefinancelimited/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Autoservicefinancelimited Webhooks](https://apis.io/asyncapis/autoservicefinancelimited/autoservicefinancelimited-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Autoservicefinancelimited Authentication](https://apis.io/security/autoservicefinancelimited/autoservicefinancelimited-authentication/)
+- [Autoservicefinancelimited Domain Security](https://apis.io/security/autoservicefinancelimited/autoservicefinancelimited-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bumper.co)
+- [Documentation](https://api-docs.bumper.co/)
+- [Getting started](https://api-docs.bumper.co/bumper-api-documentation/reference/payment-solutions/payplus-subscriptions/setup-subscription)
+- [API reference](https://api-docs.bumper.co/bumper-api-documentation/reference)
+- [Pricing](https://www.bumper.co/blog/price-guide-repairing-dents-car-doors)
+- [Changelog](https://api-docs.bumper.co/bumper-api-documentation/changelog)
+- [Blog](https://www.bumper.co/blog)
+- [Terms of service](https://www.bumper.co/terms)
+- [Privacy policy](https://www.bumper.co/privacy)
+- [Status](https://status.bumper.co/)
+
+## API Evangelist rating
+
+**Kin Score 36.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.8 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 31.6 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autoservicefinancelimited/](https://apis.io/providers/autoservicefinancelimited/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Autoservicefinancelimited: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autoservicefinancelimited/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
